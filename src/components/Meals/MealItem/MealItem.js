@@ -12,7 +12,7 @@ const MealItem = (props) => {
         <div>
             <MealItemForm/>
         </div>
-        </li>
+        </li> 
 }
 
 export default MealItem;
