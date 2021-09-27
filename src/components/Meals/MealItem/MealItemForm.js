@@ -3,7 +3,11 @@ import Input from '../../UI/Input';
 import classes from './MealItemForm.module.css';
 
 const MealItemForm = (props) => {
+
     
+    const addButtonHandler = () => {
+        
+    }
     return <form className={classes.form}>
         <Input label="Amount"
             input={{
@@ -15,7 +19,7 @@ const MealItemForm = (props) => {
                 defaultValue: 1                
                }}
         />
-        <button>+ Add</button> 
+        <button onClick={addButtonHandler}>+ Add</button>
   </form>
 
     
